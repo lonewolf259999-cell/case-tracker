@@ -1,0 +1,31 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+*.tsbuildinfo
+
+# production
+/build
+
+# runtime data (uploads / temp)
+/data/
+/work/
+
+# env — never commit real secrets
+.env
+.env.*
+!.env.example
+
+# credentials
+/secrets/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
