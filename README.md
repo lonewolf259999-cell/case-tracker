@@ -49,7 +49,6 @@ npm run dev
 ## .env
 
 ```env
-APP_URL=http://localhost:3000
 DISCORD_WEBHOOK_URL=...
 GOOGLE_JSON_KEY={"type":"service_account",...}   # บรรทัดเดียว
 # หรือ GOOGLE_CREDENTIALS_FILE=C:\...\secrets\google-service-account.json

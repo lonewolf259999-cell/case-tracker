@@ -35,7 +35,6 @@ function ffmpegBinary(): string {
 }
 
 export const config = {
-  appUrl: optional('APP_URL', 'http://localhost:3000'),
   discordWebhook: optional('DISCORD_WEBHOOK_URL'),
   sheetId: optional('SHEET_ID'),
   googleCredentials,
